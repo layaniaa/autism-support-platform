@@ -1,41 +1,37 @@
-# Autism Support Platform
+ Autism Support Platform
 
-<p align="center">
-  <strong>A comprehensive web application designed to support individuals with autism spectrum disorder through accessible tools, resources, and community features.</strong>
-</p>
+Autism Support Platform is a comprehensive web application that provides accessible tools, educational resources, and community features to support individuals on the autism spectrum and their caregivers. The platform is developed with Laravel 9 and modern front-end technologies, prioritizing accessibility, privacy, and ease of use
 
----
+ Overview
 
-## 📋 Overview
+The Autism Support Platform : is a full-featured web application built with Laravel 9 that provides:
 
-The **Autism Support Platform** is a full-featured web application built with Laravel 9 that provides:
-
-- 📚 Accessible educational resources
-- 👥 Community support and connection
-- 🎯 Progress tracking and management tools
-- 📱 Responsive design for all devices
-- 🔐 Secure user authentication
-- ♿ WCAG accessibility compliance
+-  Accessible educational resources
+-  Community support and connection
+-  Progress tracking and management tools
+-  Responsive design for all devices
+-  Secure user authentication
+-  WCAG accessibility compliance
 
 ---
 
-## 🛠 Technology Stack
+ Technology Stack
 
-### Backend
+ Backend
 - **Laravel 9.x** - Modern PHP web framework
 - **PHP 8.0+** - Server-side programming language
 - **MySQL** - Relational database
 - **Laravel Sanctum** - API authentication
 - **Voyager CMS** - Content management system
 
-### Frontend
+ Frontend
 - **Laravel Mix** - Asset compilation
 - **Webpack** - Module bundler
 - **Axios** - HTTP client for API calls
 - **Lodash** - JavaScript utility library
 - **PostCSS** - CSS processor
 
-### Development & Testing
+ Development & Testing
 - **PHPUnit** - Unit testing framework
 - **Faker** - Fake data generation
 - **Mockery** - Mock object library
@@ -43,7 +39,7 @@ The **Autism Support Platform** is a full-featured web application built with La
 
 ---
 
-## 📦 Project Structure
+ Project Structure
 
 ```
 autism-support-platform/
@@ -67,17 +63,15 @@ autism-support-platform/
 └── .env.example           # Environment variables template
 ```
 
----
 
-## 🚀 Getting Started
 
-### Prerequisites
+ Prerequisites
 - PHP 8.0 or higher
 - Node.js and npm
 - MySQL or compatible database
 - Composer (PHP package manager)
 
-### Installation
+ Installation
 
 1. **Clone the repository**
    ```bash
@@ -127,7 +121,7 @@ autism-support-platform/
 
 ---
 
-## 🔧 Available Commands
+ Available Commands
 
 ### Development
 ```bash
@@ -170,7 +164,7 @@ php artisan test --filter Feature
 
 ---
 
-## 📋 Dependencies Overview
+ Dependencies Overview
 
 ### Production Dependencies
 | Package | Version | Purpose |
@@ -191,38 +185,3 @@ php artisan test --filter Feature
 | laravel-mix | ^6.0.6 | Asset compilation |
 | axios | ^0.25 | HTTP requests |
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the **MIT License** - see the LICENSE file for details.
-
----
-
-## ☎️ Support
-
-For support, email support@autismsupportplatform.com or open an issue on GitHub.
-
----
-
-## 🙏 Acknowledgments
-
-- [Laravel Framework](https://laravel.com)
-- [Voyager CMS](https://voyager.io)
-- All community contributors
-
----
-
-**Made with ❤️ for the autism community**
